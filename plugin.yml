@@ -1,0 +1,17 @@
+name: PH-Heads
+version: 1.0
+main: Enes5519\PlayerHead\PlayerHead
+api: [3.1.1]
+author: Enes5519
+
+permissions:
+  playerhead:
+    description: Main permission
+    default: op
+    children:
+      playerhead.give:
+        default: op
+      playerhead.spawn:
+        default: op
+      playerhead.attack:
+        default: op
